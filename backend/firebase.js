@@ -8,7 +8,7 @@ dotenv.config();
 try {
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://sih-1620-498a6.firebaseio.com", // Replace with your project ID
+    databaseURL: "", // Replace with your project ID
   });
 
   const db = admin.firestore();
